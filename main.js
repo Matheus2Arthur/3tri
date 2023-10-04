@@ -1,47 +1,47 @@
 function tocaSomPom(){
     document.querySelector('#som_tecla_pom').play();
-document.querySelector('.tecla_pom').onliclick=tocaSomPom}
+document.querySelector('.tecla_pom').onclick = tocaSomPom;}
 
 function tocaSomClap(){
     document.querySelector('#som_tecla_clap').play();
-document.querySelector('.tecla_clap').onliclick=tocaSomClap}
+document.querySelector('.tecla_clap').onclick=tocaSomClap;}
 
 function tocaSomTim(){
     document.querySelector('#som_tecla_tim').play();
-document.querySelector('.tecla_tim').onliclick=tocaSomTim}
+document.querySelector('.tecla_tim').onclick=tocaSomTim;}
 
 function tocaSomPuff(){
     document.querySelector('#som_tecla_puff').play();
-document.querySelector('.tecla_puff').onliclick=tocaSomPuff}
+document.querySelector('.tecla_puff').onclick=tocaSomPuff;}
 
 function tocaSomSplash(){
     document.querySelector('#som_tecla_splash').play();
-document.querySelector('.tecla_splash').onliclick=tocaSomSplash}
+document.querySelector('.tecla_splash').onclick=tocaSomSplash;}
 
 function tocaSomToim(){
     document.querySelector('#som_tecla_toim').play();
-document.querySelector('.tecla_toim').onliclick=tocaSomToim}
+document.querySelector('.tecla_toim').onclick=tocaSomToim;}
 
 function tocaSomPsh(){
     document.querySelector('#som_tecla_psh').play();
-document.querySelector('.tecla_psh').onliclick=tocaSomPsh}
+document.querySelector('.tecla_psh').onclick=tocaSomPsh;}
 
 function tocaSomTic(){
     document.querySelector('#som_tecla_tic').play();
-document.querySelector('.tecla_tic').onliclick=tocaSomTic}
+document.querySelector('.tecla_tic').onclick=tocaSomTic;}
 
 function tocaSomTom(){
     document.querySelector('#som_tecla_tom').play();
-document.querySelector('.tecla_tom').onliclick=tocaSomTom}
-document.querySelector('.tecla');
-const ListaDeTeclas = document.querySelector('.tecla');
+document.querySelector('.tecla_tom').onclick=tocaSomTom;}
 
-ListaDeTeclas[0].onliclick - tocaSomPom;
-ListaDeTeclas[0].onliclick - tocaSomClap;
-ListaDeTeclas[0].onliclick - tocaSomTim;
-ListaDeTeclas[0].onliclick - tocaSomPuff;
-ListaDeTeclas[0].onliclick - tocaSomSplash;
-ListaDeTeclas[0].onliclick - tocaSomToim;
-ListaDeTeclas[0].onliclick - tocaSomPsh;
-ListaDeTeclas[0].onliclick - tocaSomTic;
-ListaDeTeclas[0].onliclick - tocaSomTom;
+const listaDeTeclas = document.querySelectorAll('.tecla');
+
+listaDeTeclas[0].onclick = tocaSomPom;
+
+// Estrutura de repetição - Enquanto
+
+while() {
+    
+}
+
+
